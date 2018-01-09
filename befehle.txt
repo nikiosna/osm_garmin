@@ -1,3 +1,0 @@
-wget http://download.geofabrik.de/europe-latest.osm.pbf && sh convert.sh europe-latest.osm.pbf germany-skandinavia.poly
-
-wget http://download.geofabrik.de/germany-latest.osm.pbf && sh convert.sh germany-latest.osm.pbf
