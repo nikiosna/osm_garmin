@@ -20,7 +20,7 @@ else
     cp "$rootdir/tools/osmconvert/osmconvert" "$rootdir/temp/osmconvert"
     chmod +x "$rootdir/temp/osmconvert"
     cd "$rootdir/temp/"
-    ./osmconvert $osmFile -B=$boundary --complex-ways -o="$rootdir/temp/osm_cuted.osm.pbf"
+    ./osmconvert $osmFile -B=$boundary --complete-ways --complete-multipolygons -o="$rootdir/temp/osm_cuted.osm.pbf"
     osmFile="$rootdir/temp/osm_cuted.osm.pbf"
     echo "zuschneiden der Karte abgeschlossen"
 fi
