@@ -41,7 +41,6 @@ java -jar -Xmx$maxRam ../../tools/mkgmap/mkgmap.jar \
     --latin1 \
     --route \
     --add-pois-to-areas \
-    --generate-sea \
     --housenumbers \
     --remove-short-arcs \
     --index \
