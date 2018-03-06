@@ -45,9 +45,9 @@ java -jar -Xmx$maxRam ../../tools/mkgmap/mkgmap.jar \
     --housenumbers \
     --remove-short-arcs \
     --index \
-    --style-file=aiostyles-master --style=basemap_style \
+    #--style-file=aiostyles-master --style=basemap_style \
     --gmapsupp \
-    ../splitter/6324*.osm.pbf
+    ../splitter/6324*.osm.pbf $rootdir/tools/basemap.TYP
 echo "konvertieren abgeschlossen"
 
 echo "verschiebe generierte Karte"

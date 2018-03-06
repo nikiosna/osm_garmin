@@ -8,6 +8,7 @@ mkdir -p tools/osmfilter
 
 cd tools
 wget https://github.com/berndw1960/aiostyles/archive/master.zip -O aiostyles-master.zip
+wget https://raw.githubusercontent.com/aiomaster/aiostyles/master/basemap.TYP
 
 cd osmconvert
 wget -O - http://m.m.i24.cc/osmconvert.c | cc -x c - -lz -O3 -o osmconvert
