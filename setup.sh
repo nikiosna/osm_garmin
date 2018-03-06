@@ -15,11 +15,11 @@ wget -O - http://m.m.i24.cc/osmupdate.c | cc -x c - -o osmupdate
 
 cd ../
 
-wget http://www.mkgmap.org.uk/download/mkgmap-r4129.zip -O mkgmap.zip
-unzip mkgmap.zip
+wget http://www.mkgmap.org.uk/download/mkgmap-r4129.zip
+unzip mkgmap-r*.zip
 mv mkgmap-r*/ mkgmap/
 
-wget http://www.mkgmap.org.uk/download/splitter-r590.zip -O splitter.zip
-unzip splitter.zip
+wget http://www.mkgmap.org.uk/download/splitter-r590.zip
+unzip splitter-r*.zip
 mv splitter-r*/ splitter/
 
