@@ -19,11 +19,11 @@ wget -O - http://m.m.i24.cc/osmfilter.c |cc -x c - -O3 -o osmfilter
 
 cd ../
 
-wget http://www.mkgmap.org.uk/download/mkgmap-r4129.zip
+wget http://www.mkgmap.org.uk/download/mkgmap-r4286.zip
 unzip mkgmap-r*.zip
 mv mkgmap-r*/ mkgmap/
 
-wget http://www.mkgmap.org.uk/download/splitter-r590.zip
+wget http://www.mkgmap.org.uk/download/splitter-r592.zip
 unzip splitter-r*.zip
 mv splitter-r*/ splitter/
 
