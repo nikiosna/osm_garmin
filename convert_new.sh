@@ -30,7 +30,7 @@ osmFile="$rootdir/temp/osm_conv.o5m"
 #optional filter
 cp "$rootdir/tools/osmfilter/osmfilter" "$rootdir/temp/osmfilter"
 chmod +x "$rootdir/temp/osmfilter"
-./osmfilter $osmFile --keep="highway= " -o="$rootdir/temp/osm_filter.o5m"
+./osmfilter $osmFile --keep="highway= waterway= natural= landuse=" -o="$rootdir/temp/osm_filter.o5m"
 osmFile="$rootdir/temp/osm_filter.o5m"
 
 echo "splitte map in kleinere tiles"
